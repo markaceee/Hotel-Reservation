@@ -291,8 +291,8 @@
             $mail->SMTPAuth = "true";
             $mail->SMTPSecure = "tls";
             $mail->Port = "587";
-            $mail->Username = "thehotel.booknow@gmail.com";
-            $mail->Password = "1230hotel";
+            $mail->Username = Email of your Gmail
+            $mail->Password = Password of your Gmail
             $mail->Subject = "Hotel Reservation Payment";
             $mail->setFrom("thehotel.booknow@gmail.com");
             $mail->isHTML(true);
