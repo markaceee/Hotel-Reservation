@@ -1,4 +1,4 @@
 # Hotel-Reservation
 # Features: 
 # 1. Database
-# 2. Email Verification
+# 2. Confirm Reservation Via email
