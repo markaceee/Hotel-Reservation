@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?206cc3f2b609503619298f7efe8e694f") format("truetype"),
+url("./flaticon.woff?206cc3f2b609503619298f7efe8e694f") format("woff"),
+url("./flaticon.woff2?206cc3f2b609503619298f7efe8e694f") format("woff2"),
+url("./flaticon.eot?206cc3f2b609503619298f7efe8e694f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?206cc3f2b609503619298f7efe8e694f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "bed": "\f101",
+    "user": "\f102",
+    "single-bed": "\f103",
+    "add-group": "\f104",
+    "check-in": "\f105",
+    "check-out": "\f106",
+    "bed-1": "\f107",
+    "envelope": "\f108",
+    "call": "\f109",
+    "placeholder": "\f10a",
+    "24-hours": "\f10b",
+);
+
+.flaticon-bed:before {
+    content: map-get($flaticon-map, "bed");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-single-bed:before {
+    content: map-get($flaticon-map, "single-bed");
+}
+.flaticon-add-group:before {
+    content: map-get($flaticon-map, "add-group");
+}
+.flaticon-check-in:before {
+    content: map-get($flaticon-map, "check-in");
+}
+.flaticon-check-out:before {
+    content: map-get($flaticon-map, "check-out");
+}
+.flaticon-bed-1:before {
+    content: map-get($flaticon-map, "bed-1");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-24-hours:before {
+    content: map-get($flaticon-map, "24-hours");
+}
